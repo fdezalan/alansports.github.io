@@ -292,78 +292,8 @@ footer{
     background-image: url(../futbol/river-plate/fotos/riberplei.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
-}
-
-.title-river{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 70px;
-    color: rgb(255, 8, 8);
-}
-
-.mas{
-    border-radius: 5px;
-    margin-top: 30px;
-    margin-left: 55px;
-    text-align: center;
-    width: 450px;
-    height: 550px;
-    background-color: rgb(192, 28, 19);
-}
-
-.mas__img{
-    padding-top: 20px;
-    width: 90%
-}
-
-.mas__article{
-    padding-top: 5px;
-    font-size: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.mas__p{
-    color: white;
-    padding-top: 7px;
-    margin: 10px;
-}
-
-.div-rp-oficial{
-    position: relative;
-    bottom: 400px;
-    margin-left: auto;
-    margin-right: 70px;
-    width: 400px;
-    border: 1px solid black;
-    height: 200px;
-}
-
-.div_rp_oficial-title{
-    font-size: 43px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-
-.div_rp_oficial-p{
-    color: white;
-    margin-top: 15px;
-    font-size: 20px;
-    margin-left: 26px;
-}
-
-.div_rp_oficial-button{
-    width: 350px;
-    display: block;
-    margin: 25px auto 0 auto;
-    height: 54px;
-    color: white;
-    background-color: rgb(198, 2, 2);
-    border: none;
-    border-radius: 5px;
+    height: 80vh;
+    overflow:visible;
 }
 
 .main-contacto{

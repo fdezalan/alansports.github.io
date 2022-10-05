@@ -1,0 +1,153 @@
+body {
+  overflow-x: hidden;
+}
+
+.title-river {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 700;
+  color: red;
+}
+
+.hero-rp {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hero-rp h4 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: black;
+}
+.hero-rp p {
+  font-size: 22px;
+  color: white;
+}
+.hero-rp img {
+  height: 200px;
+  margin-top: 30px;
+}
+.hero-rp div {
+  background: rgb(36, 0, 7);
+  background: linear-gradient(180deg, rgba(36, 0, 7, 0) 0%, rgba(113, 14, 14, 0) 35%, rgb(230, 32, 32) 100%);
+  border: 2px black solid;
+  position: relative;
+  top: 500px;
+}
+.hero-rp div a {
+  width: 300px;
+}
+
+.palmares-rp {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+.palmares-rp img {
+  width: 400px;
+}
+.palmares-rp .titulos-river {
+  justify-content: space-between;
+}
+.palmares-rp .img-rp {
+  margin: 30px;
+}
+
+.titles__nacionales {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 30px;
+}
+.titles__nacionales h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.titles__nacionales p {
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+.titles__internacionales {
+  padding: 30px;
+  text-align: center;
+}
+.titles__internacionales h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+.titles__internacionales p {
+  margin: auto;
+}
+
+.dividir {
+  border: 1px solid black;
+}
+
+.bloque-rp {
+  text-align: center;
+  padding: 15px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.title__independiente {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.caja-titulos {
+  margin-right: 400px;
+  text-align: center;
+  width: 420px;
+}
+.caja-titulos img {
+  margin: 10px 0;
+  width: 100%;
+  height: 230px;
+}
+.caja-titulos h4 {
+  font-weight: 600;
+}
+
+.container__actualidad {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  width: 80%;
+  height: 590px;
+}
+.container__actualidad h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: 700;
+}
+.container__actualidad img {
+  width: 50%;
+  float: left;
+  margin: 10px;
+}
+.container__actualidad p {
+  font-size: 18px;
+}
+
+.container__historia-indp {
+  margin-top: 30px;
+}
+.container__historia-indp h3 {
+  margin: 10px 0 0 30px;
+  border-bottom: solid 1px black;
+}
+.container__historia-indp .historia__rojo {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.indp-div {
+  margin-top: 50px;
+}/*# sourceMappingURL=styles.css.map */
