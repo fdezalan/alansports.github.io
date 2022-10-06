@@ -5,13 +5,6 @@
     font-family: sans-serif;
 }
 
-header{
-    height: 80px;
-    align-items: center;
-    display: flex;
-    background-color: black;
-    justify-content: space-between;
-}
 .logo img{
     height: 80px;
 }
@@ -44,7 +37,7 @@ header{
 .title__h1{
     text-decoration: underline double ;
     font-size: 3em;
-    margin-top: 30px;
+    margin-top: 100px;
     text-align: center;
 }
 .flex{

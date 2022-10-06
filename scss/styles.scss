@@ -157,3 +157,45 @@ body{
     margin-top: 50px;
 
 }
+
+.grandes__container{
+    margin-top: 30px;
+    h2{
+        font-weight: 700;
+        text-align: center;
+        margin: 20px;
+        font-size: 2.5rem;
+        text-decoration-line: underline;
+    }
+    img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.dividir-index{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
+.content__grandes{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.san-lorenzo__datos{
+    width: 70%;
+    margin: 50px 90px;
+    h4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3rem;
+    }
+    img{
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 19px;
+    }
+}
