@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-}
-
 .title-river {
   font-size: 5rem;
   text-align: center;
@@ -83,6 +79,7 @@ body {
 
 .dividir {
   border: 1px solid black;
+  width: 100%;
 }
 
 .bloque-rp {
@@ -136,14 +133,14 @@ body {
   font-size: 18px;
 }
 
-.container__historia-indp {
-  margin-top: 30px;
+.container__historia {
+  margin: 50px;
 }
-.container__historia-indp h3 {
+.container__historia h3 {
   margin: 10px 0 0 30px;
   border-bottom: solid 1px black;
 }
-.container__historia-indp .historia__rojo {
+.container__historia .historia {
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -193,4 +190,160 @@ body {
 }
 .san-lorenzo__datos p {
   font-size: 19px;
+}
+
+.div__footer {
+  margin-top: 20px;
+  margin-left: 65px;
+  width: 130px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flex__footer {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.footer__index a {
+  font-size: 18px;
+  color: white;
+}
+
+.container__clasicos {
+  margin-left: 70px;
+  text-align: center;
+}
+.container__clasicos h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.container__clasicos p {
+  text-align: start;
+}
+.container__clasicos img {
+  margin: 10px;
+}
+
+.container__historiales {
+  margin-left: 70px;
+}
+
+.clasicos {
+  margin-left: 70px;
+}
+
+.boca-main {
+  height: 50VH;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../futbol/boca/fotos/fondoboke.jpg);
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.boca-main div a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.bocajrs {
+  margin: 50px;
+}
+.bocajrs h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.logoboca {
+  justify-content: center;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+.logoboca img {
+  width: 250px;
+}
+.logoboca p {
+  width: 300px;
+}
+
+.boca-internacional {
+  margin: 50px;
+  text-align: center;
+}
+.boca-internacional h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.internacional-titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+.internacional-titles img {
+  width: 450px;
+}
+.internacional-titles p {
+  width: 500px;
+}
+
+.bombonera {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.bombonera-img {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.gasometro {
+  background-color: rgb(205, 194, 194);
+  text-align: center;
+}
+.gasometro h5 {
+  font-weight: 600;
+}
+.gasometro img {
+  margin-top: 20px;
+  width: 500px;
+}
+.gasometro p {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.estadios {
+  margin: 50px;
+}
+
+.main-rp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../futbol/river-plate/fotos/riberplei.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+.main-rp .div-rp-oficial {
+  margin-top: 80px;
+}
+
+.hoverimg {
+  transition: all 0.5s ease;
+}
+
+.hoverimg:hover {
+  box-shadow: 1px 1px 1px 1px black;
 }/*# sourceMappingURL=styles.css.map */
