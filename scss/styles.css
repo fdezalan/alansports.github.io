@@ -234,7 +234,6 @@
 }
 
 .boca-internacional {
-  margin: 50px;
   text-align: center;
 }
 .boca-internacional h3 {
@@ -285,6 +284,10 @@
 }
 .main-rp .div-rp-oficial {
   margin-top: 80px;
+}
+
+.texto-boca {
+  text-align: center;
 }
 
 .hoverimg {
