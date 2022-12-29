@@ -408,3 +408,32 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
+
+.modo-claro{
+    background-color: white;
+    color: black;
+    footer{
+        background-color: black;
+        color: white;
+    }
+}
+
+.modo-oscuro{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    a{
+        color: white;
+    }
+    .divisor{
+        color:wheat;
+    }
+}
+
+.dataid{
+    background-color: white;
+    margin: 0 auto;
+    color: black;
+    border: 1px solid black;
+    width: 350px;
+    height: 400px;
+}

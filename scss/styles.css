@@ -405,4 +405,33 @@
   background-color: red;
   font-weight: 600;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.modo-claro {
+  background-color: white;
+  color: black;
+}
+.modo-claro footer {
+  background-color: black;
+  color: white;
+}
+
+.modo-oscuro {
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+.modo-oscuro a {
+  color: white;
+}
+.modo-oscuro .divisor {
+  color: wheat;
+}
+
+.dataid {
+  background-color: white;
+  margin: 0 auto;
+  color: black;
+  border: 1px solid black;
+  width: 350px;
+  height: 400px;
 }/*# sourceMappingURL=styles.css.map */
