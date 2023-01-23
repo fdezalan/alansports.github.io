@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../futbol/san-lorenzo/fotos/alan.jpg" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../scss/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Alan Fernandez</title>
-    <meta name="description" content="contacto para colaborar con la web">
-    <meta name="keywords" content="contacto, 5, grandes, Argentino, futbol">
+    <title>e-Shop</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+    <header class="modo-claro">
+        <nav class="navbar navbar-dark bg-dark fixed-top w-100 p-3">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Alansports | Futbol Argentino</a>
+              <button id="oscuro-claro" class="navbar-toggler" type="button">Noche</button>
+              <nav>
+                <div class="icono-carrito">
+                    <img src="../imgs/pngwing.com.png" alt="carrito" class="icon-carro" id="iconCarrito" > <span id="cantidadCarrito" class="cantidad-carrito"></span></img>
+                </div>
+            </nav>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -28,21 +35,21 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../index2.html">Principal</a>
+                      <a class="nav-link active" aria-current="page" href="../futbol/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" target="_blank" href="https://www.google.com/search?q=posiciones+liga+argentina&rlz=1C1CHBD_esAR1022AR1022&oq=posiciones+&aqs=chrome.1.69i57j0i131i433i512l3j0i433i512j69i60l3.3189j0j4&sourceid=chrome&ie=UTF-8#sie=lg;/g/11js6rk1kb;2;/m/04hpk1;st;fp;1;;;">Tabla de posiciones</a>
+                      <a class="nav-link" target="_blank" href="">Tienda</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Los Grandes
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark">
-                          <li><a class="dropdown-item" href="./san-lorenzo/sl.html">San Lorenzo</a></li>
-                          <li><a class="dropdown-item" href="./boca/boke.html">Boca Juniors</a></li>
-                          <li><a class="dropdown-item" href="./river-plate/rp.html">River Plate</a></li>
-                          <li><a class="dropdown-item" href="./racing/racing.html">Racing Club</a></li>
-                        <li><a class="dropdown-item" href="./independiente/indep.html">Independiente</a></li>
+                          <li><a class="dropdown-item" href="../futbol/san-lorenzo/sl.html">San Lorenzo</a></li>
+                          <li><a class="dropdown-item" href="../futbol/boca/boke.html">Boca Juniors</a></li>
+                          <li><a class="dropdown-item" href="../futbol/river-plate/rp.html">River Plate</a></li>
+                          <li><a class="dropdown-item" href="../futbol/racing/racing.html">Racing Club</a></li>
+                        <li><a class="dropdown-item" href="../futbol/independiente/indep.html">Independiente</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -51,39 +58,17 @@
             </div>
           </nav>
     </header>
-    <main class="main-contacto">
-        <div class="form-container">
-            <h2 class="form__title">COMPLETE EL FORMULARIO</h2>
-            <form id="form" class="form">
-                <input type="text" class="form__input" placeholder=" Nombre" id="nombre">
-                <input type="text" class="form__input" placeholder=" Apellido" id="apellido">
-                <input type="email" class="form__input" placeholder=" Correo Electronico " id="correo">
-                <input type="number"class="form__input"placeholder=" DNI" id="documento" >
-                <button type="submit" class="boton">ENVIAR DATOS</button>
-            </form>
-            <div class="checkbox">
-                <label for="promo">Acepto recibir correos de promocion</label>
-                <input class="check" type="checkbox" name="" id="promo">
-            </div>
-        </div>
-      </main>
-      <div>
-      <div class="dataid" id="container-data">
-        <div id="respuesta-nombre" class="container-respuesta">
-          <h2 id="nombre-respuesta" class="datos">Nombre</h2>
-        </div>
-        <div id="respuesta-apellido" class="container-respuesta">
-          <h2 id="nombre" class="datos">Apellido</h2>
-        </div>
-        <div id="respuesta-correo" class="container-respuesta">
-          <h2 id="nombre" class="datos">Correo Electronico</h2>
-        </div>
-        <div id="respuesta-dni" class="container-respuesta">
-          <h2 id="nombre" class="datos">Numero de Documento</h2>
-        </div>
-      </div>
+
+    
+
+    <div id="modalContainer" class="modal-container">
+        
     </div>
-    <footer class="container-fluid footer__index">
+    
+    <div id="carrito-container" class="carrito-container">
+    </div>
+
+    <footer class="container-fluid footer__index modo-clarito">
       <section class="mb-4">
         <!-- Facebook -->
         <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://es-la.facebook.com/" target="_blank" role="button">
@@ -118,19 +103,19 @@
   </div>
     <div class="flex__footer">
       <div class="div__footer">
-        <a href="./san-lorenzo/sl.html">San Lorenzo</a>
+        <a href="../futbol/san-lorenzo/sl.html">San Lorenzo</a>
       </div>
       <div class="div__footer">
-        <a href="./boca/boke.html">Boca Juniors</a>
+        <a href="../futbol/boca/boke.html">Boca Juniors</a>
       </div>
       <div class="div__footer">
-        <a href="./river-plate/rp.html">River Plate</a>
+        <a href="../futbol/river-plate/rp.html">River Plate</a>
       </div>
       <div class="div__footer">
-        <a href="./independiente/indep.html">Independiente</a>
+        <a href="../futbol/independiente/indep.html">Independiente</a>
       </div>
       <div class="div__footer">
-        <a href="./racing/racing.html">Racing Club</a>
+        <a href="../futbol/racing/racing.html">Racing Club</a>
       </div>
     </div>
 
@@ -139,7 +124,11 @@
       <a class="text-dark" href="#">Alansports, Inc</a>
     </div>
 </footer>
-    <script src="../js/contacto.js"></script>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/camisetas.js"></script>
+    <script src="../js/ecco.js"></script>
+    <script src="../js/carrito.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
